@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0a0a0a;
+}
+
+.portfolio-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* LEFT SIDE */
+.left {
+  width: 45%;
+  background: linear-gradient(180deg, #13001f, #000);
+  padding: 5px;
+}
+
+/* Profile Pic */
+.profile-pic img {
+  width: 40%;
+  /* height: 50%; */
+  border-radius: 20px;
+  box-shadow:
+     0 0 20px #ff00ff,
+     0 0 40px #00eaff;
+}
+
+/* Gradient Titles */
+.section-title {
+  background: linear-gradient(to right, #ff00ff, #00eaff);
+  padding: 5px 25px;
+  border-radius: 6px;
+  margin: 30px 0 10px 0;
+  font-size: 18px;
+}
+
+.contact-info li {
+  list-style: none;
+  margin: 10px 0;
+  color: #d0d0d0;
+}
+
+/* RIGHT SIDE */
+.right {
+  width: 75%;
+  background: #000;
+  padding: 40px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.job {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #a0a0ff;
+}
+
+.about, .experience {
+  color: #cfcfcf;
+  margin: 15px 0;
+}
+
+/* Skills Section */
+.skills {
+  margin-top: 20px;
+}
+
+.skills p {
+  margin: 10px 0 5px;
+}
+
+/* Purple dots like your template */
+.dots {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dots::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #bb00ff;
+  border-radius: 50%;
+  box-shadow:
+    15px 0 #bb00ff,
+    30px 0 #bb00ff,
+    45px 0 #bb00ff,
+    60px 0 #bb00ff,
+    75px 0 #bb00ff;
+}
